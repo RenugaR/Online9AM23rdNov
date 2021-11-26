@@ -23,7 +23,7 @@ public class AdactinSteps extends LibGlobal {
 		driver.findElement(By.id("username")).sendKeys("Hello");
 		insertType(a.getTxtUserName(), "hello");
 		System.out.println(a.getTxtUserName());
-		insertType(a.getTxtPass(), "1234567");
+		insertType(a.getTxtPass(), "12345678");
 		System.out.println("hello");
 		System.out.println(a.getTxtPass());
 		System.out.println("hello");
