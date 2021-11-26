@@ -24,7 +24,7 @@ public class AdactinSteps extends LibGlobal {
 		insertType(a.getTxtUserName(), "hello");
 		insertType(a.getTxtPass(), "1234567");
 	}
-
+ramdom
 	@When("User clicks the login button")
 	public void user_clicks_the_login_button() {
 		AdactinPagePojo a = new AdactinPagePojo();

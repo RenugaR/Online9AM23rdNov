@@ -11,8 +11,8 @@ public class LibGlobal {
 	 */
 
 	public static void getDriver() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\ADMIN\\eclipse-workspace\\Online9AMNov15Project\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.edge.driver",
+				"C:/Users/msedgedriver.exe");
 		driver = new ChromeDriver();
 	}
 
