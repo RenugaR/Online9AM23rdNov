@@ -24,6 +24,7 @@ public class AdactinSteps extends LibGlobal {
 		insertType(a.getTxtUserName(), "hello");
 		System.out.println(a.getTxtUserName());
 		insertType(a.getTxtPass(), "1234567");
+		System.out.println("hello");
 		System.out.println(a.getTxtPass());
 		System.out.println("hello");
 	}
