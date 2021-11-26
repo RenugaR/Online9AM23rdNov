@@ -12,7 +12,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class AdactinSteps extends LibGlobal {
-
 	@Given("User launch the browser and navigates to hotel booking app")
 	public void user_launch_the_browser_and_navigates_to_hotel_booking_app() {
 		getUrl("http://adactinhotelapp.com/");
