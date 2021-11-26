@@ -23,6 +23,7 @@ public class AdactinSteps extends LibGlobal {
 		AdactinPagePojo a = new AdactinPagePojo();
 		insertType(a.getTxtUserName(), "hello");
 		insertType(a.getTxtPass(), "1234567");
+		System.out.println("checking modifing git");
 	}
 
 	@When("User clicks the login button")
