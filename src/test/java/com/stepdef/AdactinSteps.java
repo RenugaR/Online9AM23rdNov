@@ -44,8 +44,10 @@ public class AdactinSteps extends LibGlobal {
 			throws Throwable {
 		AdactinPagePojo a = new AdactinPagePojo();
 		insertType(a.getTxtUserName(), userName);
+		
 		System.out.println(userName);
 		insertType(a.getTxtPass(), password);
+		
 		System.out.println(password);
 	}
 }
