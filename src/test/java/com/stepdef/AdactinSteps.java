@@ -21,8 +21,11 @@ public class AdactinSteps extends LibGlobal {
 	@When("User enters the credentials in hotel booking app")
 	public void user_enters_the_credentials_in_hotel_booking_app() {
 		AdactinPagePojo a = new AdactinPagePojo();
+		driver.findElement(By.id("username")).sendKeys("Hello");
 		insertType(a.getTxtUserName(), "hello");
+		System.out.println(a.getTxtUserName());
 		insertType(a.getTxtPass(), "1234567");
+		System.out.println(a.getTxtPass());
 	}
 
 	@When("User clicks the login button")
