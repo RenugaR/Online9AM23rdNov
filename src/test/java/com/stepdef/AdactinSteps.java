@@ -21,12 +21,15 @@ public class AdactinSteps extends LibGlobal {
 	public void user_enters_the_credentials_in_hotel_booking_app() {
 		AdactinPagePojo a = new AdactinPagePojo();
 		insertType(a.getTxtUserName(), "hello");
+		System.out.println("head");
+		System.out.println("tail");
 		insertType(a.getTxtPass(), "1234567");
 	}
 
 	@When("User clicks the login button")
 	public void user_clicks_the_login_button() {
 		AdactinPagePojo a = new AdactinPagePojo();
+		System.out.println("Login button");
 		click(a.getBtnLogIn());
 	}
 
