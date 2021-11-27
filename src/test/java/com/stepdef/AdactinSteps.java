@@ -22,6 +22,7 @@ public class AdactinSteps extends LibGlobal {
 	public void user_enters_the_credentials_in_hotel_booking_app() {
 		AdactinPagePojo a = new AdactinPagePojo();
 		insertType(a.getTxtUserName(), "hello");
+		insertType(a.getTxtUserName(), "hellooo");
 		insertType(a.getTxtPass(), "1234567");
 	}
 
