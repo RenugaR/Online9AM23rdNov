@@ -16,7 +16,7 @@ public class JvmReport {
 
 		List<String> li = new ArrayList<String>();
 		li.add(jsonLoc);
-
+System.out.println("li.add(jsonLoc)" + li.add(jsonLoc) );
 		Configuration con = new Configuration(jvmReport, "AdactinLogInPage");
 		con.addClassifications("Browser", "Chrome");
 		con.addClassifications("OS", "10 above");
